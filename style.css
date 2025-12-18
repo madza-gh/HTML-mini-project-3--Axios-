@@ -1,20 +1,62 @@
 /* reset basic styles */
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul li{
-    display: inline-block;
+ul li {
+  display: inline-block;
 }
 
-ul{
-    display: inline-block;
+ul {
+  display: inline-block;
 }
 
+.header {
+  background-color: #1c3b7a;
+  position: relative;
+}
+
+.nav-1 {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-1 a {
+  color: #fff;
+  padding-right: 12px;
+  font-size: 12px;
+
+}
+
+.go-to-top {
+  display: inline-block;
+    background-color: #fff;
+    height: 50px;
+}
+
+.go-to-top a{
+    color: #1c3b7a;
+}
+
+.login-user {
+  position: absolute;
+  display: inline-block;
+  right: 20px;
+}
+
+.header-logo-search {
+  background-color: #fff;
+}
+
+.nav-2 {
+  background-color: #fff;
+}
