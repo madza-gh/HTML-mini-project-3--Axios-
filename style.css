@@ -38,19 +38,22 @@ ul {
 }
 
 .go-to-top {
-  display: inline-block;
+    display: inline-block; 
     background-color: #fff;
     height: 50px;
+    width: 40px;
+    margin-left: 50px;
+    text-align: center;;
 }
 
-.go-to-top a{
+.go-to-top i{
     color: #1c3b7a;
 }
 
 .login-user {
   position: absolute;
   display: inline-block;
-  right: 20px;
+  right: 50px;
 }
 
 .header-logo-search {
