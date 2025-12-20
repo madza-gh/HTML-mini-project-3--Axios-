@@ -32,7 +32,8 @@ ul {
 
 .nav-1 a {
   color: #fff;
-  padding-right: 12px;
+  padding-right: 6px;
+  padding-left: 6px;
   font-size: 12px;
 
 }
@@ -58,8 +59,48 @@ ul {
 
 .header-logo-search {
   background-color: #fff;
+  text-align: center;
+  height: 50px;
+  position: relative;
+  padding-top: 10px;
 }
 
+.header-logo-search .left{
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.header-logo-search .center{
+  display: inline-block;
+}
+
+.header-logo-search .right{
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.header-logo-search button{
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #5e6269;
+  background-color: #fff;
+}
+
+.header-logo-search button:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #2d61ca;
+  border-color: #2d61ca;
+}
+
+.header-logo-search button i{
+  padding-left: 5px;
+}
 .nav-2 {
   background-color: #fff;
 }
