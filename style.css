@@ -19,7 +19,7 @@ ul {
   display: inline-block;
 }
 
-/* header */ 
+/* header */
 
 .header {
   background-color: #1c3b7a;
@@ -37,20 +37,19 @@ ul {
   padding-right: 6px;
   padding-left: 6px;
   font-size: 12px;
-
 }
 
 .go-to-top {
-    display: inline-block; 
-    background-color: #fff;
-    height: 50px;
-    width: 40px;
-    margin-left: 50px;
-    text-align: center;;
+  display: inline-block;
+  background-color: #fff;
+  height: 50px;
+  width: 40px;
+  margin-left: 50px;
+  text-align: center;
 }
 
-.go-to-top i{
-    color: #1c3b7a;
+.go-to-top i {
+  color: #1c3b7a;
 }
 
 .login-user {
@@ -67,7 +66,7 @@ ul {
   padding-top: 10px;
 }
 
-.header-logo-search .left{
+.header-logo-search .left {
   display: inline-block;
   position: absolute;
   left: 50px;
@@ -75,11 +74,11 @@ ul {
   transform: translatey(-50%);
 }
 
-.header-logo-search .center{
+.header-logo-search .center {
   display: inline-block;
 }
 
-.header-logo-search .right{
+.header-logo-search .right {
   display: inline-block;
   position: absolute;
   right: 50px;
@@ -87,32 +86,32 @@ ul {
   transform: translatey(-50%);
 }
 
-.header-logo-search button{
+.header-logo-search button {
   padding: 5px 15px;
   border-radius: 20px;
   border: 1px solid #5e6269;
   background-color: #fff;
 }
 
-.header-logo-search button:hover{
+.header-logo-search button:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: #2d61ca;
   border-color: #2d61ca;
 }
 
-.header-logo-search button i{
+.header-logo-search button i {
   padding-left: 5px;
 }
 
 /* topics */
 
-.nav-2{
+.nav-2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   margin-top: 50px;
 }
 
-.nav-2 a{
+.nav-2 a {
   border: solid 0px #2d61ca;
   background-color: rgba(37, 79, 219, 0.1);
   border-radius: 50px;
@@ -121,38 +120,48 @@ ul {
   transition: all 0.3s;
 }
 
-.nav-2 a:hover{
+.nav-2 a:hover {
   background-color: rgba(37, 79, 219, 0.2);
 }
 
-.nav-2 img{
+.nav-2 img {
   vertical-align: middle;
 }
 
 /*main*/
 
-.main{
+.main {
   max-width: 1200px;
   margin: auto;
 }
 
-.news{
+.news {
   display: inline-block;
   width: 70%;
   vertical-align: top;
   margin-bottom: 20px;
   border: solid 1px rgb(235, 231, 231);
   border-radius: 3px;
-  padding: 20px;
+  padding: 50px;
+  text-align: center;
 }
 
-.latest-news{
+.news-article{
+  text-align: left;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+  border-bottom: #d3d3d3 solid 1px;
+}
+.news-article:last-child{
+  border-bottom: none;
+}
+
+.latest-news {
   display: inline-block;
   width: 29%;
-
 }
 
-.writer-image{
+.writer-image {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -160,7 +169,7 @@ ul {
   overflow: hidden;
   margin-right: 10px;
 }
-.writer-info{
+.writer-info {
   display: inline-block;
   vertical-align: top;
   font-size: 12px;
@@ -169,29 +178,95 @@ ul {
   margin-bottom: 20px;
 }
 
-.writer-info a{
+.writer-info a {
   color: black;
 }
 
-.writer-name{
+.writer-name {
   display: block;
-  
 }
-.writer-name a:hover{
+.writer-name a:hover {
   color: #2d61ca;
   text-decoration: underline;
 }
 
-.news-time{
+.news-time {
   color: #5e6269;
 }
 
-.news-category{
+.news-category {
   background-color: #eeeeee;
   padding: 3px;
   border-radius: 20px;
   transition: all 0.3s;
 }
-.news-category:hover{
+.news-category:hover {
   background-color: #c9c9c9;
+}
+
+.article-section a {
+  color: #2d61ca;
+  text-decoration: underline;
+}
+.article-section a:hover {
+  text-decoration: none;
+}
+
+.article-section p {
+  margin: 20px;
+}
+
+.read-more {
+  text-align: center;
+  display: block;
+  padding: 10px 30px;
+  font-size: 14px;
+  border: 1px solid #2d61ca;
+  color: #2d61ca;
+  border-radius: 50px;
+}
+.read-more:hover {
+  background-color: #eeeeee;
+}
+
+.article-title a {
+  font-size: 28px;
+  color: black;
+}
+
+.article-image {
+  margin: 30px 0;
+}
+
+.article-image img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.article-image figcaption {
+  font-size: small;
+  color: #5e6269;
+}
+
+.filter-buttons {
+  background-color: #e9e9e9;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  top: -70px;
+}
+
+.filter-buttons button {
+  background-color: #e9e9e9;
+  color: #2d61ca;
+  border-radius: 50px;
+  font-size: 12px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: #2d61ca;
+  color: #fff;
 }
