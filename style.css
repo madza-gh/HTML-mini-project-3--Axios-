@@ -131,7 +131,7 @@ ul {
 /*main*/
 
 .main {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -146,13 +146,13 @@ ul {
   text-align: center;
 }
 
-.news-article{
+.news-article {
   text-align: left;
   margin-bottom: 80px;
   padding-bottom: 40px;
   border-bottom: #d3d3d3 solid 1px;
 }
-.news-article:last-child{
+.news-article:last-child {
   border-bottom: none;
 }
 
@@ -269,4 +269,53 @@ ul {
 .filter-buttons button.active {
   background-color: #2d61ca;
   color: #fff;
+}
+
+.latest-news h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  color: #666;
+  font-size: 12px;
+  position: relative;
+}
+.latest-news h3::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #666;
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 3px;
+}
+
+.latest-news a {
+  color: #333;
+}
+
+.latest-news li {
+  width: 100%;
+  margin-left: 40px;
+  padding: 10px 0;
+  border-bottom: solid 1px #c9c9c9;
+}
+.latest-news li:last-child {
+  border-bottom: none;
+}
+.latest-news figure {
+  width: 100%;
+}
+
+.latest-news img {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  border-radius: 4px;
+}
+.latest-news figcaption {
+  width: 47%;
+  display: inline-block;
+  vertical-align: middle;
 }
