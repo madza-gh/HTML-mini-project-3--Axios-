@@ -131,7 +131,7 @@ ul {
 /*main*/
 
 .main {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -230,8 +230,9 @@ ul {
 }
 
 .article-title a {
-  font-size: 28px;
-  color: black;
+  font-size: 36px;
+  color: #333;
+  font-weight: 450;
 }
 
 .article-image {
@@ -318,4 +319,92 @@ ul {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
+}
+.latest-news figcaption:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  background-color: #1c3b7a;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer-container{
+  width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer a{
+  color: #fff;
+}
+
+.footer-top{
+  border-bottom: solid 1px #c9c9c9;
+  padding-bottom: 40px;
+}
+
+.footer-top-message{
+display: inline-block;
+width: 69%;
+text-align: left;
+}
+.footer-top-message p{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-top-message a{
+  border: 1px solid #fff;
+  padding: 10px 40px 10px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.footer-top-message a:hover{
+  background-color: #1d5cdb;
+}
+
+.long-arrow{
+  transform: scaleX(1.8) scaleY(0.75);
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.footer-top-nav{
+display: inline-block;
+width: 29%;
+text-align: left;
+vertical-align: top;
+}
+
+.footer-top-nav ul{
+  width: 30%;
+vertical-align: top;
+}
+
+.footer-top-nav li{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-top-nav a:hover{
+  text-decoration: underline;
+}
+
+.footer-bottom{
+  padding-top: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.footer-bottom a{
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.footer-bottom p{
+  display: inline-block;
 }
